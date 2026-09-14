@@ -29,7 +29,11 @@ export default defineConfig({
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/Q-AExam/',
   title: "My Q&A Web App",
+  // ... rest of your existing config
+
+
   description: "Study guide web app",
   themeConfig: {
     nav: [
